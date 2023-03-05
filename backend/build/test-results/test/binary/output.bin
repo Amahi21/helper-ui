@@ -1,0 +1,12 @@
+¤2023-02-13 01:05:32.894 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - No ktor.deployment.watch patterns specified, automatic reload is not active.
+}2023-02-13 01:05:33.466 [DefaultDispatcher-worker-1 @call-context#2] INFO  ktor.test - Application started in 0.587 seconds.
+m2023-02-13 01:05:33.514 [DefaultDispatcher-worker-1 @request#2] TRACE io.ktor.routing.Routing - Trace for []
+/, segment:0 -> SUCCESS @ /
+>  /json, segment:0 -> FAILURE "Selector didn't match" @ /json
+  /, segment:0 -> SUCCESS @ /
+8    /(method:GET), segment:0 -> SUCCESS @ /(method:GET)
+Matched routes:
+$  "" -> "<slash>" -> "(method:GET)"
+Route resolve result:
+  SUCCESS @ /(method:GET)
+‘2023-02-13 01:05:33.520 [DefaultDispatcher-worker-1 @request#2] TRACE i.k.s.p.c.ContentNegotiation - Skipping because body is already converted.
